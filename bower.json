@@ -1,0 +1,31 @@
+{
+  "name": "Netomedia",
+  "version": "0.1.0",
+  "description": "Yet another amazing AngularJS app",
+  "keywords": [
+    "angular"
+  ],
+  "homepage": "https://github.com/oraricha/-netomedia",
+  "bugs": "https://github.com/oraricha/-netomedia/issues",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": "https://github.com/oraricha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oraricha/-netomedia.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "dependencies": {
+    "bootstrap": "3.1.1",
+    "angular-animate": "^1.2.16",
+    "angular-resource": "^1.2.16",
+    "angular-route": "^1.2.16",
+    "angular": "^1.2.16"
+  }
+}

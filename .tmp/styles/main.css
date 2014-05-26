@@ -1,0 +1,163 @@
+/*
+ * Globals
+ */
+/* Links */
+/* line 8, app/styles/main.scss */
+a,
+a:focus,
+a:hover {
+  color: #fff; }
+
+/* Custom default button */
+/* line 15, app/styles/main.scss */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none;
+  /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid white; }
+
+/*
+ * Base structure
+ */
+/* line 28, app/styles/main.scss */
+html,
+body {
+  height: 100%;
+  background-color: #333; }
+
+/* line 32, app/styles/main.scss */
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5); }
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+/* line 40, app/styles/main.scss */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  /* For at least Firefox */
+  min-height: 100%; }
+
+/* line 46, app/styles/main.scss */
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top; }
+
+/* line 50, app/styles/main.scss */
+.cover-container {
+  margin-left: auto;
+  margin-right: auto; }
+
+/* Padding for spacing */
+/* line 56, app/styles/main.scss */
+.inner {
+  padding: 30px; }
+
+/*
+ * Header
+ */
+/* line 64, app/styles/main.scss */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+/* line 69, app/styles/main.scss */
+.masthead-nav > li {
+  display: inline-block; }
+
+/* line 72, app/styles/main.scss */
+.masthead-nav > li + li {
+  margin-left: 20px; }
+
+/* line 75, app/styles/main.scss */
+.masthead-nav > li > a {
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  /* IE8 proofing */
+  color: rgba(255, 255, 255, 0.75);
+  border-bottom: 2px solid transparent; }
+
+/* line 85, app/styles/main.scss */
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: rgba(255, 255, 255, 0.25); }
+
+/* line 91, app/styles/main.scss */
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff; }
+
+@media (min-width: 768px) {
+  /* line 97, app/styles/main.scss */
+  .masthead-brand {
+    float: left; }
+
+  /* line 100, app/styles/main.scss */
+  .masthead-nav {
+    float: right; } }
+/*
+ * Cover
+ */
+/* line 110, app/styles/main.scss */
+.cover {
+  padding: 0 20px; }
+
+/* line 113, app/styles/main.scss */
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold; }
+
+/*
+ * Footer
+ */
+/* line 123, app/styles/main.scss */
+.mastfoot {
+  color: #999;
+  /* IE8 proofing */
+  color: rgba(255, 255, 255, 0.5); }
+
+/*
+ * Affix and center
+ */
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  /* line 135, app/styles/main.scss */
+  .masthead {
+    position: fixed;
+    top: 0; }
+
+  /* line 139, app/styles/main.scss */
+  .mastfoot {
+    position: fixed;
+    bottom: 0; }
+
+  /* Start the vertical centering */
+  /* line 144, app/styles/main.scss */
+  .site-wrapper-inner {
+    vertical-align: middle; }
+
+  /* Handle the widths */
+  /* line 150, app/styles/main.scss */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%;
+    /* Must be percentage or pixels for horizontal alignment */ } }
+@media (min-width: 992px) {
+  /* line 158, app/styles/main.scss */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px; } }
